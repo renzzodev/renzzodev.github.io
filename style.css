@@ -1,14 +1,13 @@
-.texto-main{
-    text-align: center;
-    font-size: 25px;
-    padding: 55px;
-    color: white;
-    font-family: sans-serif;
+.contenedor{
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
-.imagen-main{
-    display: inline;
-    border-radius: 55px;
+.contenedor img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
 }
 
 body{
