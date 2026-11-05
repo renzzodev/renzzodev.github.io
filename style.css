@@ -8,6 +8,7 @@
 
 .imagen-main{
     display: inline-block;
+    border-radius: 55px;
 }
 
 body{
