@@ -55,7 +55,7 @@ a:hover{
 }
 
 /*Mi conocimiento*/
-span{
+.Subtexto{
     display: block;
     color: rgb(253, 145, 57);
     padding: 5px;
