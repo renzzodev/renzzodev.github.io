@@ -1,43 +1,63 @@
+/*Pagina index*/
+
+body{
+    background: #1c1c1c;
+}
+
+/*Menu*/
+
+.nav{
+    text-align: center;
+}
+
+ul li{
+    display: inline;
+}
+
+a{
+    color: #58d3f5;
+    text-decoration: none;
+    font-size: 35px;
+    margin: 5px;
+    font-family: sans-serif;
+}
+
+a:hover{
+    color: #58d3f5;
+    text-shadow: 1px 1px 15px #58d3f5;
+    text-decoration: none;
+    font-size: 35px;
+    margin: 5px;
+    font-family: sans-serif;
+}
+
+/*Principal*/
+
 .contenedor{
+    padding: 220px;
     display: flex;
     align-items: center;
-    gap: 10px;
-    padding: 220px;
+    transform: translateX(100px);
 }
 
 .texto-main{
     color: white;
     font-family: sans-serif;
-    text-align: center;
+    font-size: 50px;
 }
 
 .imagen-main{
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    box-shadow: 0px 0px 55px 1px #44d7eb;
+    width: 250px;
+    height: 250px;
     border-radius: 100%;
+    box-shadow: 8px 5px 10px #58d3f5;
+    margin: 10px;
 }
 
-body{
-    background-color: #232324;
-}
-
-nav{
-    width: 100%;
-    padding: 1rem 5%;
-    align-items: center;
-}
-
-.nav-links{
-    list-style: none;
-    display: flex;
-    gap: 2rem;
-}
-
-.nav-links li a{
-    font-size: 1.05rem;
-    font-weight: 500;
-    text-decoration: none;
-    color: #e2e8f0;
+/*Mi conocimiento*/
+span{
+    display: block;
+    color: rgb(253, 145, 57);
+    padding: 5px;
+    font-size: 20px;
 }
